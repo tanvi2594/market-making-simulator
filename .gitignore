@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+*.egg-info
+.venv/
+.pytest_cache/
+.ruff_cache/
+.hypothesis/
+
+# Data (raw inputs only; committed outputs live in docs/figures and results/)
+data/
+*.csv
+*.parquet
+
+# OCaml build artifacts
+ocaml/test_book
+ocaml/*.cmi
+ocaml/*.cmo
+ocaml/*.cmx
+ocaml/*.o
